@@ -9,6 +9,13 @@
     },
     "dev": {
       "cache": false
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": ["coverage/**"]
+    },
+    "clean": {
+      "outputs": []
     }
   }
 }

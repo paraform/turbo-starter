@@ -1,11 +1,12 @@
 {
-  "name": "docs",
+  "name": "app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
+    "test": "jest --coverage",
     "lint": "next lint"
   },
   "dependencies": {
